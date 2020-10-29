@@ -1,0 +1,16 @@
+.Shower{
+    width: 80%;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.Selector{
+    width: 80%;
+    margin: 10px auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Selector input{
+    width: 70%;
+}

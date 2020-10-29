@@ -1,0 +1,42 @@
+.EditableInput{
+    width: 80%;
+    display:flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+.EditableInput label{
+    margin-right: 4px;
+}
+
+.EditableInput p{
+    margin: 0px;
+    flex-grow: 1;
+}
+.EditableInput input{
+    width: 50px;
+    margin: 0px;
+    flex-grow: 1;
+}
+
+.EditButton{
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    display:inline-block;
+    margin: 0px 0px;
+}
+
+.Green{
+    background-color: green;
+}
+
+.Blue{
+    background-color: blue;
+}
+
+.EditButton:hover{
+    background-color: darkgrey;
+}
