@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classes from './TestApp.module.css';
-import EditableInput from '../Components/Colours/Editable/EditableInput';
+import EditableInput from '../Components/Editable/EditableInput';
 
 class InputsComponent extends Component {
     state = {
