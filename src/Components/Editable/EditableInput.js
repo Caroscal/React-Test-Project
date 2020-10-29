@@ -10,7 +10,6 @@ const enterHandler = (event, setEditing) => {
 
 const EditableInput = (props) => {
     const [editing, setEditing] = useState(false);
-    console.log('ping');
 
 
     let buttonClasses = [classes.EditButton];

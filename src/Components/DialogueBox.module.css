@@ -1,0 +1,35 @@
+.Box{
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.ImageSection{
+    height: 50%;
+    position: relative
+}
+
+.ImageSection img{
+    height: 100%;
+    position: absolute;
+}
+
+.TextSection{
+    height: 50%;
+    background-color: lightgray;
+    border: 3px solid darkgrey;
+    border-radius: 30px;
+    position: relative;
+}
+
+.TextSection p{
+    margin: 25px;
+    display:block;
+}
+
+.TextSection button{
+    position:absolute;
+    right: 15px;
+    bottom: 10px;
+}
